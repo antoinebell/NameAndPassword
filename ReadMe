@@ -1,7 +1,8 @@
-2014 update by skycocker: fixed strlen and other bugs
-testing:
-  add `<string>NameAndPassword:invoke</string>` line to the authorization policy database *in place of* `<string>loginwindow:login</string>`. Otherwise it won't log you in.
--------------------------------
+2018 update by Antoine Bellanger (http://antoinebellanger.ch): fixed nib and ARCHS
+
+How does it work ?
+
+A `SFAuthorizationPluginView` Introduction (https://antoinebellanger.ch/blog-post/sfauthorizationpluginview-introduction)
 
 /*
 
@@ -49,7 +50,7 @@ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
 STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-Copyright © 2006 Apple Computer, Inc., All Rights Reserved
+Copyright Â© 2006 Apple Computer, Inc., All Rights Reserved
 
 */
 
